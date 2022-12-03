@@ -1,0 +1,5 @@
+<p>usuario: {{ nombre | lowercase }}</p>
+<p>saldo: {{ saldo | currency: '$' }}</p>
+<p>fechaActual: {{ fechaActual | date: 'dd/MM/yy' }}</p>
+<p>articulos:{{ articulos | json }}</p>
+<app-pipes></app-pipes>
